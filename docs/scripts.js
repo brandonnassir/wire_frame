@@ -227,11 +227,11 @@ function setupDemoRegistration() {
   startDemoBtn.addEventListener('click', function() {
     // Redirect to appropriate dashboard based on role
     if (selectedRole === 'student') {
-      window.location.href = '../my-wireframe/students/student_home.html';
+      window.location.href = '../wire_frame/students/student_home.html';
     } else if (selectedRole === 'tutor') {
-      window.location.href = '../my-wireframe/tutors/tutor_home.html';
+      window.location.href = '../wire_frame/tutors/tutor_home.html';
     } else if (selectedRole === 'admin') {
-      window.location.href = '../my-wireframe/administrators/administrator_home.html';
+      window.location.href = '../wire_frame/administrators/administrator_home.html';
     }
   });
 }
