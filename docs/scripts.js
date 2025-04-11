@@ -227,7 +227,7 @@ function setupDemoRegistration() {
   startDemoBtn.addEventListener('click', function() {
     // Redirect to appropriate dashboard based on role
     if (selectedRole === 'student') {
-      window.location.href = '../students/student_home.html';
+      window.location.href = '../wire_frame/students/student_home.html';
     } else if (selectedRole === 'tutor') {
       window.location.href = '../tutors/tutor_home.html';
     } else if (selectedRole === 'admin') {
